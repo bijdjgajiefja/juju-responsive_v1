@@ -1,0 +1,168 @@
+/* .powered-by a {
+  display: flex;
+  text-decoration: none;
+}
+
+.banner {
+  margin: 2rem 7rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  height: 10%;
+} */
+
+.header {
+    width: 70%;
+    margin: 2rem 0;
+  }
+  
+  .header div {
+    float: left;
+  }
+  
+  .powered-by {
+    padding-left: 3rem;
+    background-color: white;
+  }
+  
+  .powered-by a {
+    display: flex;
+    text-decoration: none;
+  }
+  
+  div.welcome {
+    float: right;
+    width: 17%;
+  }
+  
+  .welcome > * {
+    margin: 3px;
+  }
+  
+  .welcome p + p {
+    text-align: center;
+  }
+  
+  button.red {
+    background: red;
+  }
+  
+  .welcome button {
+    float: right;
+    margin-right: 0;
+  }
+  
+  .second-section {
+    padding-top: 10%;
+    width: 70%;
+  }
+  
+  .payment-method div {
+    float: left;
+    padding-left: 6.5rem;
+  }
+  
+  .payment-method a {
+    text-decoration: none;
+  }
+  
+  .right-part-float {
+    float: right;
+    display: flex;
+  }
+  
+  input[type="number"] {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0.3rem;
+    border-style: solid;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .bill-area div + div {
+    padding-left: 1rem;
+    margin-left: 9rem;
+    line-height: 5;
+  }
+  
+  .bill-area {
+    margin-top: 5em;
+    border: 1px solid #ddd;
+    width: 70%;
+    height: auto;
+    float: left;
+    margin-bottom: 10em;
+    border-radius: 6px;
+  }
+  
+  .bill-area a {
+    text-decoration: none;
+  }
+  
+  .bill-area div {
+    float: left;
+  }
+  
+  .svg-foto {
+    width: 2em;
+    vertical-align: middle;
+  }
+  
+  div.first-part {
+    float: right;
+    margin-right: 7rem;
+  }
+  
+  .second-part p {
+    display: inline-block;
+  }
+  
+  date {
+    margin-left: 6rem;
+  }
+  
+  .bill-print {
+    display: flex;
+  }
+  
+  .button {
+    color: white;
+    background: blue;
+    padding: 0.8em 2.5em;
+    border-radius: 6px;
+    border-style: none;
+  }
+  
+  .continue {
+    float: right;
+    margin-top: 3.5 rem;
+    margin-right: 1.5rem;
+    font-size: small;
+    margin-top: 3.5rem;
+  }
+  
+  .copyright {
+    padding-bottom: 1.5rem;
+    color: #aaa;
+  }
+  
+  .credit-card-pay,
+  .copyright {
+    text-align: center;
+    display: block;
+    width: 100%;
+    float: left;
+  }
+  
+  .credit-card-pay img {
+    width: 3rem;
+  }
+  
+  .chat-message {
+    float: right;
+  }
+  
